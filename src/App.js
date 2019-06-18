@@ -4,7 +4,8 @@ import "./App.css";
 
 class App extends Component {
   state = {
-    greeting: "No hello for you"
+    greeting: "No hello for you",
+    players: [{ id: 1, name: "player1" }, { id: 2, name: "player2" }]
   };
   render() {
     return (
